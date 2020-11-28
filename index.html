@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<title> Artificial Intelligence </title>
+</head>
+<body>
+<h1> Artificial Intelligence </h1>
+<p> Artificial intelligence (AI), is intelligence demonstrated by machines, 
+unlike the natural intelligence displayed by humans and animals. Leading AI 
+textbooks define the field as the study of "intelligent agents": any device that perceives
+its environment and takes actions that maximize its chance of successfully achieving its goals.
+</p>
+<br>
+<h3> Artificial Neural Networks:</h3>
+<p> These are inspired from the human brain and hence by developing a similar analogy, we came up with the idea of
+  neural networks.
+</p>
+
+<h3>Analogy?</h3>
+<p>The human brain consist of neurons, they help in collecting the information and carrying them from one neuron to
+  another with the help of dendrites.
+</p><br>
+
+<h3>Neural Networks</h3>
+<ul>
+  <li>Neuron Networks usually consist of neurons which help in forming the building blocks of the neural network.</li><br>
+  <li>In the simplest terms possible: A neuron takes inputs, does some math with them, and produces one output.</li>
+  <img src="I1.jpg" class="I1" alt="Italian Trulli">
+  <h4>3 things are happening here:</h4>
+  <li>First, each input is multiplied by a weight:</li>
+  <h5>x1 = x1 * w1</h5>
+  <h5>x2 = x2 * w2</h5>
+  <h4>What's a Weight?</h4>
+  <li>Weight is a parameter within a neural network that transforms input data within the network's hidden layers.</li>
+  <li>In simpler terms: Weight is the strength of connection, if I increase the input then how much influence doesit have on the output.</li>
+  <li>Next, all the weighted inputs are added together with a bias b:</li>
+  <h5>(x1 * w1) + (x2 * w2) + b</h5>
+  <h4>What's Bias?</h4>
+  <li>Bias is how much this output wants to be activated regardless of the input.</li>
+  <h5>In simpler terms:</h5>
+  <li>Since we do not have control over the amount which is multiplied that is the weights, we add something called bias, in order to reduce or increase the influence on the output.</li>
+  <li>Finally, the sum is passed through an activation function:</li>
+  <h5>y = f(x1 * w1 + x2 * w2 + b)</h5>
+  <li>The activation function is used to turn an unbounded input into an output that has a nice, predictable form. A commonly used activation function is the sigmoid function:</li>
+  <li>Sigmoid function is similar to step function, in which value is only between 0 or 1.</li>
+  <li>So, it causes a threshold at 0.5 and values above it will be classified as 1 and values below it will be classified as 0.</li>
+  <img src="I3.png" class="I1" alt="Italian Trulli">
+  <li>The sigmoid function only outputs numbers in the range (0,1). You can think of it as compressing (-infinity, +infinity) to (0,1) -- big negative numbers become ~o, and big positive numbers become ~1.</li>
+  <li>The final step in building a neural network is to combine the neurons into a Neural Network.</li>
+  <h4>In Summary:</h4>
+  <li>A neural network is nothing more than a bunch of neurons collected together.</li>
+  <li>Here's what a simple neural network might look like:</li>
+  <img src="I2.jpg" class="I1" alt="Italian Trulli">
+
+  <li>The network has 2 inputs, a hidden layer with 2 neurons (h1 and h2), and an output layer with 1 neuron (o1).</li>
+  <li>Notice that the inputs for o1 are the outputs from h1 and h2 - that's what makes this a network.</li>
+  <h4>For simplicity:</h4>
+  <li>A hidden layer is any layer between the input (first) layer and output(last) layer. There can be multiple hidden layers.</li>
+  <!-- <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li>
+  <li>x1 = x1 * w1</li> -->
+</ul>
+<!-- <ul>
+  <li>Face Detection and Recognition. ...</li>
+  <li>Chatbots.</li>
+  <li>Digital Assistants.</li>
+  <li>Social Media. ...</li>
+  <li>E-Payments.</li>
+  <li>Text Editors or Autocorrect. ...</li>
+  <li>Search and Recommendation Algorithms. ...</li>
+</ul> -->
+<body>
+</html>
